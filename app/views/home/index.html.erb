@@ -7,7 +7,7 @@
   <meta name="description" content="Search engine">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link rel="icon" href="favicon.png">
+  <%= image_tag'apps-icon.png' %>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
@@ -26,14 +26,14 @@
   </header>
 
   <div id="logo" class="frog">
-    <img src="img/logo.png" alt="Logo Google" class="frog">
-  </div>
+    <%= image_tag'logo.png' %>
+    </div>
 
   <div id="search-bar" class="frog">
     <form class="example" action="/action_page.php">
-      <input type="text" name="search" placeholder="Made with <3 from THP Grenoble">
-      <img class="microphone" src="img/microphone.png" alt="microphone">
-    </form>
+      <input type="text" name="search" placeholder="Made with Thp Lyon">
+      <%= image_tag'microphone.png', width: 100 %>
+     </form>
 
   </div>
 
